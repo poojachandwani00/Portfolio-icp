@@ -1,0 +1,86 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link {
+  color: white;
+  padding: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #f1c40f;
+}
+
+/* Sections */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.summary-section, .education-section, .certificates-section, .activities-section, .experience-section, .extracurricular-section, .field-of-interest-section {
+  background-color: #f7f7f7;
+}
+
+.projects-section, .skills-section, .languages-section, .contact-section {
+  background-color: #ffffff;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  margin: 20px;
+  padding: 15px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  width: 250px;
+  transition: transform 0.3s ease;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin: 0;
+}
